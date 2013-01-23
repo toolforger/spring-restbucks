@@ -16,13 +16,12 @@
 package org.springsource.restbucks.order.web;
 
 import org.springframework.data.rest.repository.context.AbstractRepositoryEventListener;
-import org.springframework.stereotype.Component;
 import org.springsource.restbucks.order.Order;
 
 /**
  * @author Oliver Gierke
  */
-@Component
+// @Component
 @SuppressWarnings("rawtypes")
 public class OrderControllerEventListener extends AbstractRepositoryEventListener {
 

@@ -19,7 +19,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.EntityLinks;
 import org.springframework.hateoas.Resource;
 import org.springframework.hateoas.ResourceProcessor;
-import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 import org.springsource.restbucks.order.Order;
 
@@ -29,7 +28,7 @@ import org.springsource.restbucks.order.Order;
  * 
  * @author Oliver Gierke
  */
-@Component
+// @Component
 class CoreOrderResourceProcessor implements ResourceProcessor<Resource<Order>> {
 
 	public static final String CANCEL_REL = "cancel";

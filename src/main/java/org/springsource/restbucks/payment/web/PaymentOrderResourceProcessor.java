@@ -18,7 +18,6 @@ package org.springsource.restbucks.payment.web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.Resource;
 import org.springframework.hateoas.ResourceProcessor;
-import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 import org.springsource.restbucks.order.Order;
 
@@ -27,7 +26,7 @@ import org.springsource.restbucks.order.Order;
  * 
  * @author Oliver Gierke
  */
-@Component
+// @Component
 class PaymentOrderResourceProcessor implements ResourceProcessor<Resource<Order>> {
 
 	private final PaymentLinks paymentLinks;
