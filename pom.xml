@@ -20,6 +20,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 		<spring-data-jpa.version>1.5.0.BUILD-SNAPSHOT</spring-data-jpa.version>
 		<jackson.version>2.3.0</jackson.version>
 		<sd.rest>2.0.0.BUILD-SNAPSHOT</sd.rest>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
